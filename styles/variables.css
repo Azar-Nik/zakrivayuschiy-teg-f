@@ -4,6 +4,8 @@
   --font-family-accent: "PressStart2P";
   --font-weight-base: 410;
   --font-weight-heading: 715;
+  --color-white: #fff;
+  --color-black: #000;
   --background-image:
     repeating-linear-gradient(
       to right,
@@ -17,10 +19,10 @@
     ),
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
   --container-width: clamp(375px, 100%, 700px);
-  --stroke-color: #fff;
-  --heart-contour-color: #000;
+  --stroke-color: var(--color-white);
+  --heart-contour-color: var(--color-black);
   --animation-fill-color: #ff0000;
-  --main-border: #000 2px solid;
-  --button-content-color: #fff;
-  --main-background-color: #fff;
+  --main-border: var(--color-black) 2px solid;
+  --button-content-color: var(--color-white);
+  --main-background-color: var(--color-white);
 }
